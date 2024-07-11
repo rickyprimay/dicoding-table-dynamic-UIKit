@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA74A5D52C40497D00852476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5D42C40497D00852476 /* AppDelegate.swift */; };
+		EA74A5D72C40497D00852476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5D62C40497D00852476 /* SceneDelegate.swift */; };
+		EA74A5D92C40497D00852476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5D82C40497D00852476 /* ViewController.swift */; };
+		EA74A5DC2C40497D00852476 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EA74A5DB2C40497D00852476 /* Base */; };
+		EA74A5DE2C40498000852476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA74A5DD2C40498000852476 /* Assets.xcassets */; };
+		EA74A5E12C40498000852476 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EA74A5E02C40498000852476 /* Base */; };
+		EA74A5EC2C40498000852476 /* dicoding_table_dynamicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5EB2C40498000852476 /* dicoding_table_dynamicTests.swift */; };
+		EA74A5F62C40498000852476 /* dicoding_table_dynamicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5F52C40498000852476 /* dicoding_table_dynamicUITests.swift */; };
+		EA74A5F82C40498000852476 /* dicoding_table_dynamicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5F72C40498000852476 /* dicoding_table_dynamicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA74A5E82C40498000852476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA74A5C92C40497D00852476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA74A5D02C40497D00852476;
+			remoteInfo = "dicoding-table-dynamic";
+		};
+		EA74A5F22C40498000852476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA74A5C92C40497D00852476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA74A5D02C40497D00852476;
+			remoteInfo = "dicoding-table-dynamic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA74A5D12C40497D00852476 /* dicoding-table-dynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicoding-table-dynamic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA74A5D42C40497D00852476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA74A5D62C40497D00852476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA74A5D82C40497D00852476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA74A5DB2C40497D00852476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA74A5DD2C40498000852476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA74A5E02C40498000852476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA74A5E22C40498000852476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA74A5E72C40498000852476 /* dicoding-table-dynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-table-dynamicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA74A5EB2C40498000852476 /* dicoding_table_dynamicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_table_dynamicTests.swift; sourceTree = "<group>"; };
+		EA74A5F12C40498000852476 /* dicoding-table-dynamicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-table-dynamicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA74A5F52C40498000852476 /* dicoding_table_dynamicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_table_dynamicUITests.swift; sourceTree = "<group>"; };
+		EA74A5F72C40498000852476 /* dicoding_table_dynamicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_table_dynamicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA74A5CE2C40497D00852476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74A5E42C40498000852476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74A5EE2C40498000852476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA74A5C82C40497D00852476 = {
+			isa = PBXGroup;
+			children = (
+				EA74A5D32C40497D00852476 /* dicoding-table-dynamic */,
+				EA74A5EA2C40498000852476 /* dicoding-table-dynamicTests */,
+				EA74A5F42C40498000852476 /* dicoding-table-dynamicUITests */,
+				EA74A5D22C40497D00852476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA74A5D22C40497D00852476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA74A5D12C40497D00852476 /* dicoding-table-dynamic.app */,
+				EA74A5E72C40498000852476 /* dicoding-table-dynamicTests.xctest */,
+				EA74A5F12C40498000852476 /* dicoding-table-dynamicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA74A5D32C40497D00852476 /* dicoding-table-dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				EA74A5D42C40497D00852476 /* AppDelegate.swift */,
+				EA74A5D62C40497D00852476 /* SceneDelegate.swift */,
+				EA74A5D82C40497D00852476 /* ViewController.swift */,
+				EA74A5DA2C40497D00852476 /* Main.storyboard */,
+				EA74A5DD2C40498000852476 /* Assets.xcassets */,
+				EA74A5DF2C40498000852476 /* LaunchScreen.storyboard */,
+				EA74A5E22C40498000852476 /* Info.plist */,
+			);
+			path = "dicoding-table-dynamic";
+			sourceTree = "<group>";
+		};
+		EA74A5EA2C40498000852476 /* dicoding-table-dynamicTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA74A5EB2C40498000852476 /* dicoding_table_dynamicTests.swift */,
+			);
+			path = "dicoding-table-dynamicTests";
+			sourceTree = "<group>";
+		};
+		EA74A5F42C40498000852476 /* dicoding-table-dynamicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA74A5F52C40498000852476 /* dicoding_table_dynamicUITests.swift */,
+				EA74A5F72C40498000852476 /* dicoding_table_dynamicUITestsLaunchTests.swift */,
+			);
+			path = "dicoding-table-dynamicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA74A5D02C40497D00852476 /* dicoding-table-dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA74A5FB2C40498000852476 /* Build configuration list for PBXNativeTarget "dicoding-table-dynamic" */;
+			buildPhases = (
+				EA74A5CD2C40497D00852476 /* Sources */,
+				EA74A5CE2C40497D00852476 /* Frameworks */,
+				EA74A5CF2C40497D00852476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dicoding-table-dynamic";
+			productName = "dicoding-table-dynamic";
+			productReference = EA74A5D12C40497D00852476 /* dicoding-table-dynamic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA74A5E62C40498000852476 /* dicoding-table-dynamicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA74A5FE2C40498000852476 /* Build configuration list for PBXNativeTarget "dicoding-table-dynamicTests" */;
+			buildPhases = (
+				EA74A5E32C40498000852476 /* Sources */,
+				EA74A5E42C40498000852476 /* Frameworks */,
+				EA74A5E52C40498000852476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA74A5E92C40498000852476 /* PBXTargetDependency */,
+			);
+			name = "dicoding-table-dynamicTests";
+			productName = "dicoding-table-dynamicTests";
+			productReference = EA74A5E72C40498000852476 /* dicoding-table-dynamicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA74A5F02C40498000852476 /* dicoding-table-dynamicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA74A6012C40498000852476 /* Build configuration list for PBXNativeTarget "dicoding-table-dynamicUITests" */;
+			buildPhases = (
+				EA74A5ED2C40498000852476 /* Sources */,
+				EA74A5EE2C40498000852476 /* Frameworks */,
+				EA74A5EF2C40498000852476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA74A5F32C40498000852476 /* PBXTargetDependency */,
+			);
+			name = "dicoding-table-dynamicUITests";
+			productName = "dicoding-table-dynamicUITests";
+			productReference = EA74A5F12C40498000852476 /* dicoding-table-dynamicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA74A5C92C40497D00852476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EA74A5D02C40497D00852476 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EA74A5E62C40498000852476 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EA74A5D02C40497D00852476;
+					};
+					EA74A5F02C40498000852476 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EA74A5D02C40497D00852476;
+					};
+				};
+			};
+			buildConfigurationList = EA74A5CC2C40497D00852476 /* Build configuration list for PBXProject "dicoding-table-dynamic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA74A5C82C40497D00852476;
+			productRefGroup = EA74A5D22C40497D00852476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA74A5D02C40497D00852476 /* dicoding-table-dynamic */,
+				EA74A5E62C40498000852476 /* dicoding-table-dynamicTests */,
+				EA74A5F02C40498000852476 /* dicoding-table-dynamicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA74A5CF2C40497D00852476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74A5DE2C40498000852476 /* Assets.xcassets in Resources */,
+				EA74A5E12C40498000852476 /* Base in Resources */,
+				EA74A5DC2C40497D00852476 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74A5E52C40498000852476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74A5EF2C40498000852476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA74A5CD2C40497D00852476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74A5D92C40497D00852476 /* ViewController.swift in Sources */,
+				EA74A5D52C40497D00852476 /* AppDelegate.swift in Sources */,
+				EA74A5D72C40497D00852476 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74A5E32C40498000852476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74A5EC2C40498000852476 /* dicoding_table_dynamicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74A5ED2C40498000852476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA74A5F82C40498000852476 /* dicoding_table_dynamicUITestsLaunchTests.swift in Sources */,
+				EA74A5F62C40498000852476 /* dicoding_table_dynamicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA74A5E92C40498000852476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA74A5D02C40497D00852476 /* dicoding-table-dynamic */;
+			targetProxy = EA74A5E82C40498000852476 /* PBXContainerItemProxy */;
+		};
+		EA74A5F32C40498000852476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA74A5D02C40497D00852476 /* dicoding-table-dynamic */;
+			targetProxy = EA74A5F22C40498000852476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA74A5DA2C40497D00852476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA74A5DB2C40497D00852476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA74A5DF2C40498000852476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA74A5E02C40498000852476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA74A5F92C40498000852476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA74A5FA2C40498000852476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA74A5FC2C40498000852476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVPC6QX93W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dicoding-table-dynamic/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.dicoding-table-dynamic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA74A5FD2C40498000852476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVPC6QX93W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dicoding-table-dynamic/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.dicoding-table-dynamic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA74A5FF2C40498000852476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVPC6QX93W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.dicoding-table-dynamicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-table-dynamic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dicoding-table-dynamic";
+			};
+			name = Debug;
+		};
+		EA74A6002C40498000852476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVPC6QX93W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.dicoding-table-dynamicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dicoding-table-dynamic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dicoding-table-dynamic";
+			};
+			name = Release;
+		};
+		EA74A6022C40498000852476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVPC6QX93W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.dicoding-table-dynamicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dicoding-table-dynamic";
+			};
+			name = Debug;
+		};
+		EA74A6032C40498000852476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVPC6QX93W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rickyprimay.dicoding-table-dynamicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dicoding-table-dynamic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA74A5CC2C40497D00852476 /* Build configuration list for PBXProject "dicoding-table-dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74A5F92C40498000852476 /* Debug */,
+				EA74A5FA2C40498000852476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA74A5FB2C40498000852476 /* Build configuration list for PBXNativeTarget "dicoding-table-dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74A5FC2C40498000852476 /* Debug */,
+				EA74A5FD2C40498000852476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA74A5FE2C40498000852476 /* Build configuration list for PBXNativeTarget "dicoding-table-dynamicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74A5FF2C40498000852476 /* Debug */,
+				EA74A6002C40498000852476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA74A6012C40498000852476 /* Build configuration list for PBXNativeTarget "dicoding-table-dynamicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA74A6022C40498000852476 /* Debug */,
+				EA74A6032C40498000852476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA74A5C92C40497D00852476 /* Project object */;
+}
