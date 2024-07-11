@@ -19,6 +19,7 @@
 		EA74A6052C4049CC00852476 /* AcademyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A6042C4049CC00852476 /* AcademyModel.swift */; };
 		EA74A60A2C404AFB00852476 /* AcademyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A6082C404AFB00852476 /* AcademyTableViewCell.swift */; };
 		EA74A60B2C404AFB00852476 /* AcademyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA74A6092C404AFB00852476 /* AcademyTableViewCell.xib */; };
+		EA74A60D2C4054CC00852476 /* DetaillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A60C2C4054CC00852476 /* DetaillViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EA74A6042C4049CC00852476 /* AcademyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyModel.swift; sourceTree = "<group>"; };
 		EA74A6082C404AFB00852476 /* AcademyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyTableViewCell.swift; sourceTree = "<group>"; };
 		EA74A6092C404AFB00852476 /* AcademyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcademyTableViewCell.xib; sourceTree = "<group>"; };
+		EA74A60C2C4054CC00852476 /* DetaillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaillViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				EA74A6042C4049CC00852476 /* AcademyModel.swift */,
 				EA74A6082C404AFB00852476 /* AcademyTableViewCell.swift */,
 				EA74A6092C404AFB00852476 /* AcademyTableViewCell.xib */,
+				EA74A60C2C4054CC00852476 /* DetaillViewController.swift */,
 			);
 			path = "dicoding-table-dynamic";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				EA74A5D52C40497D00852476 /* AppDelegate.swift in Sources */,
 				EA74A6052C4049CC00852476 /* AcademyModel.swift in Sources */,
 				EA74A5D72C40497D00852476 /* SceneDelegate.swift in Sources */,
+				EA74A60D2C4054CC00852476 /* DetaillViewController.swift in Sources */,
 				EA74A60A2C404AFB00852476 /* AcademyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

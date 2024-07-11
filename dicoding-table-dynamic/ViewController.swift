@@ -11,17 +11,23 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var academyTableView: UITableView!
     override func viewDidLoad() {
-        super.viewDidLoad()
+      super.viewDidLoad()
+     
+      academyTableView.dataSource = self
+      academyTableView.delegate = self
+     
+      academyTableView.register(
+        UINib(nibName: "AcademyTableViewCell", bundle: nil),
+        forCellReuseIdentifier: "AcademyCell"
+      )
         
-        academyTableView.dataSource = self
-        
-        academyTableView.register(
-          UINib(nibName: "AcademyTableViewCell", bundle: nil),
-          forCellReuseIdentifier: "AcademyCell"
-        )
     }
-
-
+    @IBAction func goToWebsite(_ sender: Any) {
+        let urlDicoding = "https://www.dicoding.com"
+          if let url = URL(string: urlDicoding), UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url)
+          }
+    }
 }
 
 extension ViewController: UITableViewDataSource {
@@ -55,4 +61,23 @@ extension ViewController: UITableViewDataSource {
     }
   }
  
+}
+
+extension ViewController: UITableViewDelegate {
+  func tableView(
+    _ tableView: UITableView,
+    didSelectRowAt indexPath: IndexPath
+  ) {
+    performSegue(withIdentifier: "moveToDetail", sender: dummyAcademyData[indexPath.row])
+  }
+  override func prepare(
+    for segue: UIStoryboardSegue,
+    sender: Any?
+  ) {
+    if segue.identifier == "moveToDetail" {
+      if let detaiViewController = segue.destination as? DetaillViewController {
+        detaiViewController.academy = sender as? AcademyModel
+      }
+    }
+  }
 }
