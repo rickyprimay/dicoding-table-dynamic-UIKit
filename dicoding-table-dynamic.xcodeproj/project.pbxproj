@@ -16,6 +16,9 @@
 		EA74A5EC2C40498000852476 /* dicoding_table_dynamicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5EB2C40498000852476 /* dicoding_table_dynamicTests.swift */; };
 		EA74A5F62C40498000852476 /* dicoding_table_dynamicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5F52C40498000852476 /* dicoding_table_dynamicUITests.swift */; };
 		EA74A5F82C40498000852476 /* dicoding_table_dynamicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A5F72C40498000852476 /* dicoding_table_dynamicUITestsLaunchTests.swift */; };
+		EA74A6052C4049CC00852476 /* AcademyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A6042C4049CC00852476 /* AcademyModel.swift */; };
+		EA74A60A2C404AFB00852476 /* AcademyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74A6082C404AFB00852476 /* AcademyTableViewCell.swift */; };
+		EA74A60B2C404AFB00852476 /* AcademyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA74A6092C404AFB00852476 /* AcademyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		EA74A5F12C40498000852476 /* dicoding-table-dynamicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dicoding-table-dynamicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA74A5F52C40498000852476 /* dicoding_table_dynamicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_table_dynamicUITests.swift; sourceTree = "<group>"; };
 		EA74A5F72C40498000852476 /* dicoding_table_dynamicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoding_table_dynamicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA74A6042C4049CC00852476 /* AcademyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyModel.swift; sourceTree = "<group>"; };
+		EA74A6082C404AFB00852476 /* AcademyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyTableViewCell.swift; sourceTree = "<group>"; };
+		EA74A6092C404AFB00852476 /* AcademyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcademyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				EA74A5DD2C40498000852476 /* Assets.xcassets */,
 				EA74A5DF2C40498000852476 /* LaunchScreen.storyboard */,
 				EA74A5E22C40498000852476 /* Info.plist */,
+				EA74A6042C4049CC00852476 /* AcademyModel.swift */,
+				EA74A6082C404AFB00852476 /* AcademyTableViewCell.swift */,
+				EA74A6092C404AFB00852476 /* AcademyTableViewCell.xib */,
 			);
 			path = "dicoding-table-dynamic";
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA74A60B2C404AFB00852476 /* AcademyTableViewCell.xib in Resources */,
 				EA74A5DE2C40498000852476 /* Assets.xcassets in Resources */,
 				EA74A5E12C40498000852476 /* Base in Resources */,
 				EA74A5DC2C40497D00852476 /* Base in Resources */,
@@ -260,7 +270,9 @@
 			files = (
 				EA74A5D92C40497D00852476 /* ViewController.swift in Sources */,
 				EA74A5D52C40497D00852476 /* AppDelegate.swift in Sources */,
+				EA74A6052C4049CC00852476 /* AcademyModel.swift in Sources */,
 				EA74A5D72C40497D00852476 /* SceneDelegate.swift in Sources */,
+				EA74A60A2C404AFB00852476 /* AcademyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
